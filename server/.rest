@@ -1,0 +1,17 @@
+# Completar uma meta
+POST  http://localhost:3333/completions
+Content-Type: application/json
+
+{
+    "goalId": "gq4wsrcemcd0c57wa2wp2wqv"
+}
+
+###
+
+# Listar metas pendentes
+GET http://localhost:3333/pending-goals
+
+###
+
+# get week summary
+GET http://localhost:3333/week-summary
