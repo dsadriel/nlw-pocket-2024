@@ -3,7 +3,6 @@ import logo from '../assets/logo.svg'
 import lets_start from '../assets/illustration_lets-start.svg'
 import { Button } from './ui/button'
 import { DialogTrigger } from './ui/dialog'
-import { CreateGoal } from './create-goal'
 
 export function EmptyGoals() {
   return (
@@ -18,7 +17,6 @@ export function EmptyGoals() {
           <Plus className="size-4" /> Cadastrar meta
         </Button>
       </DialogTrigger>
-      <CreateGoal />
     </div>
   )
 }
